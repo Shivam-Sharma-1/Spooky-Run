@@ -34,25 +34,25 @@ window.addEventListener('load', () => {
             this.floatingMessages = [];
             this.soundEffects = [];
             this.maxParticles = 200; // maximum particles that can be emitted from an action
-            this.energy = 30;
-            this.maxEnergy = 30;
+            this.energy = 30;  // sets the initial amount of energy when the game begins 
+            this.maxEnergy = 30; // sets the maximum energy
             this.rollDisabled = false;
-            this.lives = 5;
+            this.lives = 5; // sets the number of lives
             this.enemyTimer = 0;
             this.enemyInterval = 1000;
             this.debug = false; // press i to debug
             this.score = 0;
-            this.winningScore = 30;
+            this.winningScore = 30; // sets the winning score
             this.fontColor = 'black';
             this.time = 0;
-            this.maxTime = 30000;
+            this.maxTime = 30000; // sets the time limit
             this.gameOver = false;
             this.player.currentState = this.player.states[0];
             this.player.currentState.enter();
         };
         update(deltaTime) {
             // handle score 
-            if(this.score <=0) this.score = 0;
+            if(this.score <=0) this.score = 0; // prevents the score from going negative
 
             // handle time
             this.time += 20;
@@ -191,7 +191,7 @@ window.addEventListener('load', () => {
         ctx.clearRect(0, 0, canvas.width, canvas.height);
         game.update(deltaTime);
         game.draw(ctx);
-        if(!game.gameOver) requestAnimationFrame(animate);
+        if(!game.gameOver) requestAnimationFrame(animate); // updates screen if game is not over
     };
     animate(0);
 });
