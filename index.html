@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Creepster&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="assets/lives.png" type="image/x-icon">
+    <title>Spooky Run</title>
+</head>
+<body>
+    <main id="instructions">
+        <h1>Spooky Run</h1>
+        <h2>Controls</h2>
+        <p>Press "ArrowUp" or "W" to jump</p>
+        <p>Press "ArrowLeft" or "A" to move left</p>
+        <p>Press "ArrowRight" or "D" to move right</p>
+        <p>Press "ArrowDown" or "S" to sit when player is on ground</p>
+        <p>Press "ArrowDown" or "S" to dive when player is in air</p>
+        <p>Press "Space Bar" to roll and attack!</p>
+        <p>Score 30 points within 30 seconds to win</p>
+        <h1>Press Enter to start the game!</h1>     
+    </main>
+    <button id="fullScreenButton">Fullscreen Mode</button>
+    <canvas id="canvas1" class="canvas1"></canvas>
+    <!-- declared here to render the images soon -->
+    <img src="assets/player.png" id="player" alt=""> 
+    <img src="assets/bg/forest-layer-1.png" id="layer-1" alt=""> 
+    <img src="assets/bg/forest-layer-2.png" id="layer-2" alt=""> 
+    <img src="assets/bg/forest-layer-3.png" id="layer-3" alt=""> 
+    <img src="assets/bg/forest-layer-4.png" id="layer-4" alt=""> 
+    <img src="assets/bg/forest-layer-5.png" id="layer-5" alt=""> 
+    <img src="assets/enemies/enemy_fly.png" id="enemy_fly" alt=""> 
+    <img src="assets/enemies/enemy_bat_1.png" id="enemy_bat_1" alt=""> 
+    <img src="assets/enemies/enemy_bat_2.png" id="enemy_bat_2" alt=""> 
+    <img src="assets/enemies/enemy_bat_3.png" id="enemy_bat_3" alt=""> 
+    <img src="assets/enemies/enemy_ghost_1.png" id="enemy_ghost_1" alt=""> 
+    <img src="assets/enemies/enemy_ghost_3.png" id="enemy_ghost_3" alt=""> 
+    <img src="assets/enemies/enemy_digger.png" id="enemy_digger" alt=""> 
+    <img src="assets/enemies/enemy_ghost_2.png" id="enemy_ghost_2" alt=""> 
+    <img src="assets/enemies/enemy_ground_zombie.png" id="enemy_ground_zombie" alt=""> 
+    <img src="assets/enemies/enemy_hand.png" id="enemy_hand" alt=""> 
+    <img src="assets/enemies/enemy_worm.png" id="enemy_worm" alt=""> 
+    <img src="assets/enemies/enemy_zombie.png" id="enemy_zombie" alt=""> 
+    <img src="assets/enemies/enemy_spider_big.png" id="enemy_spider_big" alt=""> 
+    <img src="assets/enemies/enemy_spider.png" id="enemy_spider" alt=""> 
+    <img src="assets/enemies/enemy_spinner.png" id="enemy_spinner" alt=""> 
+    <img src="assets/fire.png" id="fire" alt="">
+    <img src="assets/boom.png" id="collisionAnimation" alt="">
+    <img src="assets/lives.png" id="lives" alt="">
+    <script src="main.js" type="module"></script>
+</body>
+</html>

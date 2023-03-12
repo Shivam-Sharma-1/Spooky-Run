@@ -1,0 +1,93 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Creepster';
+}
+
+body {
+    background: url(assets/bg/controls-bg.png) no-repeat fixed center;
+}
+
+.canvas1 {
+    border: 5px solid black;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: black;
+}
+
+h1, h2, p {
+    text-shadow: 1px 1px white;
+}
+
+h1 {
+    font-size: 4.5rem;
+}
+
+h2 {
+    font-size: 3.5rem;
+    margin: .5em 0;
+}
+
+p {
+    font-size: 2rem;
+    margin: .5em;
+}
+
+main {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+#player,
+#layer-1,
+#layer-2,
+#layer-3,
+#layer-4,
+#layer-5,
+#enemy_digger,
+#enemy_ghost_2,
+#enemy_ground_zombie,
+#enemy_hand,
+#enemy_worm,
+#enemy_zombie,
+#enemy_fly,
+#enemy_spider,
+#enemy_spider_big,
+#enemy_spinner,
+#enemy_bat_1,
+#enemy_bat_2,
+#enemy_bat_3,
+#enemy_ghost_1,
+#enemy_ghost_3,
+#fire,
+#collisionAnimation, 
+#lives,
+.canvas1,
+#fullScreenButton {
+    display: none;
+}
+
+#fullScreenButton {
+    font-family: 'Creepster';
+    position: absolute;
+    font-size: 20px;
+    padding: 10px;
+    top: 50px;
+    left: 50%;
+    transform: translateX(-50%);
+    border-radius: 7px;
+    background: #616264;
+    color: gainsboro;
+}
+
+#fullScreenButton:hover,
+#fullScreenButton:focus {
+    cursor: pointer;
+    background: #808184;
+}
