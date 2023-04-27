@@ -10,10 +10,11 @@ In this game, the player's aim is to achieve a score of over 30 in order to win.
 
 ## Screenshots
 
-![App Screenshot1](/images/readme_assets/screenshot1.png)
-![App Screenshot2](/images/readme_assets/screenshot2.png)
-![App Screenshot3](/images/readme_assets/screenshot3.png)
-![App Screenshot4](/images/readme_assets/screenshot4.png)
+![App Screenshot1](/assets/readme_assets/screenshot1.png)
+![App Screenshot2](/assets/readme_assets/screenshot2.png)
+![App Screenshot3](/assets/readme_assets/screenshot3.png)
+![App Screenshot4](/assets/readme_assets/screenshot4.png)
+![App Screenshot5](/assets/readme_assets/screenshot5.png)
 
 
 ## Technologies used
@@ -54,7 +55,7 @@ Go to the project directory
 Start the server
 
 Open the project and click to Go Live from the status bar to turn the server on/off.
-![live server](/images/readme_assets/live-server.jpg)
+![live server](/assets/readme_assets/live-server.jpg)
 
 ## Usage
 
@@ -68,7 +69,7 @@ Open the project and click to Go Live from the status bar to turn the server on/
 
 ## Website hosted URL
 
-This website is deployed using using Github Pages  
+This website is deployed using Github Pages  
 Website url: https://shivam-sharma-1.github.io/Spooky-Run/
 
 ## Contributing
